@@ -1,27 +1,26 @@
-/* paragraph styling required */
+/* Paragraph styling */
 p {
   font-family: Times, "Times New Roman", serif;
   font-size: 16px;
   color: #DECAFF;
 }
 
-/* EXACT id and pixel sizes for the photo */
-#photo-styling {
-  width: 250px;
-  height: 300px;
+/* Resize photo */
+#photo-resize {
+  max-width: 250px;
+  max-height: 300px;
   display: block;
   margin: 0.5rem 0;
 }
 
-/* EXACT class and border declaration with pixel value */
-.table-borders {
-  border: 1px solid #000000;
+/* Table border styling */
+.table-border {
+  border: 1px solid #DECAFF;
   border-collapse: collapse;
 }
 
-/* borders on cells too */
-.table-borders th,
-.table-borders td {
-  border: 1px solid #000000;
+.table-border th,
+.table-border td {
+  border: 1px solid #DECAFF;
   padding: 0.5rem;
 }
