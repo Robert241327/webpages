@@ -1,0 +1,40 @@
+/* Paragraph styling per instructions */
+p {
+  font-family: Times, "Times New Roman", serif;
+  font-size: 16px;
+  color: #DECAFF;
+}
+
+/* Optional: basic layout niceties */
+body {
+  margin: 1rem;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+header h2 {
+  margin-bottom: 0.25rem;
+}
+
+hr {
+  margin: 1rem 0;
+}
+
+/* Table border as required */
+.table-border, .table-border th, .table-border td {
+  border: 1px solid #DECAFF;
+  border-collapse: collapse;
+}
+
+.table-border th, .table-border td {
+  padding: 0.5rem;
+}
+
+/* Photo resize ID as required */
+#photo-resize {
+  max-width: 250px;
+  max-height: 300px;
+  height: auto;
+  width: auto;
+  display: block;
+  margin: 0.5rem 0;
+}
