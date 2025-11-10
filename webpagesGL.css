@@ -5,15 +5,15 @@ p {
   color: #DECAFF;
 }
 
-/* EXACT id with explicit px sizes */
+/* EXACT selector + px values for photo tests */
 #photo-styling {
   width: 250px;
   height: 300px;
   display: block;
-  margin: 0.5rem 0;
+  margin: 8px 0;
 }
 
-/* EXACT class with a border that uses a pixel size */
+/* EXACT class + pixel border for table tests */
 .table-borders {
   border: 1px solid #DECAFF;
   border-collapse: collapse;
@@ -22,5 +22,5 @@ p {
 .table-borders th,
 .table-borders td {
   border: 1px solid #DECAFF;
-  padding: 0.5rem;
+  padding: 6px;
 }
